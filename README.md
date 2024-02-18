@@ -1,5 +1,8 @@
 ## Docker 本地部署教程
 
+镜像构建：docker build -t notionnext .
+容器停止: docker stop container_id
+容器启动:  docker run -d -p 3001:3001 notionnext
 
 
 # NotionNext
