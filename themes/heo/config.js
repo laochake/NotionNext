@@ -17,10 +17,10 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'galen.lol',
+  HEO_HERO_TITLE_3: '',
   HEO_HERO_TITLE_4: 'Excalidraw',
   HEO_HERO_TITLE_5: 'Excalidraw自动转动画和PPT',
-  HEO_HERO_TITLE_LINK: 'http://galen.lol/article/recommend-article',
+  HEO_HERO_TITLE_LINK: '/',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: 'AI', url: '/tag/AI' },
