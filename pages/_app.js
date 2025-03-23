@@ -19,6 +19,7 @@ import useAdjustStyle from '@/hooks/useAdjustStyle'
 import ExternalPlugins from '@/components/ExternalPlugins'
 import GlobalHead from '@/components/GlobalHead'
 import BLOG from '@/blog.config'
+import { Analytics } from '@vercel/analytics/react'
 
 /**
  * App挂载DOM 入口文件
@@ -46,6 +47,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <GlobalContextProvider {...pageProps}>
+      <Analytics />
       <GLayout {...pageProps}>
         <GlobalHead {...pageProps}/>
         <Component {...pageProps} />
