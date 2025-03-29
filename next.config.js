@@ -45,6 +45,7 @@ module.exports = withBundleAnalyzer({
       'ko-fi.com'
     ]
   },
+  staticPageGenerationTimeout: 100000,
   // 默认将feed重定向至 /public/rss/feed.xml
   async redirects() {
     return [
