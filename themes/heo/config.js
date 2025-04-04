@@ -18,13 +18,13 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: '',
-  HEO_HERO_TITLE_4: 'Excalidraw',
-  HEO_HERO_TITLE_5: 'Excalidraw自动转动画和PPT',
-  HEO_HERO_TITLE_LINK: '/',
+  HEO_HERO_TITLE_4: 'AI',
+  HEO_HERO_TITLE_5: ' AILabs AI 收录合集',
+  HEO_HERO_TITLE_LINK: '/tag/AI',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: 'AI', url: '/tag/AI' },
-  HEO_HERO_CATEGORY_2: { title: 'FE', url: '/tag/FE' },
+  HEO_HERO_CATEGORY_2: { title: 'LLM', url: '/tag/llm' },
   HEO_HERO_CATEGORY_3: { title: '设计', url: '/tag/设计' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
@@ -113,7 +113,7 @@ const CONFIG = {
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
   HEO_MENU_INDEX: true, // 显示首页
-  HEO_MENU_CATEGORY: true, // 显示分类
+  // HEO_MENU_CATEGORY: true, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
   HEO_MENU_ARCHIVE: true, // 显示归档
   HEO_MENU_SEARCH: true, // 显示搜索
