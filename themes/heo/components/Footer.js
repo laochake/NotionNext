@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import SocialButton from './SocialButton'
 import { siteConfig } from '@/lib/config'
 
@@ -32,6 +33,10 @@ const Footer = ({ title }) => {
                 </div>
 
             <div id='footer-bottom-right'>
+                {/* // 隐私政策 */}
+                {<><i className='fas fa-user-secret' /> <a href="/privacy-policy" className='mr-2'>隐私政策</a></>}
+
+                {/* // 备案号 */}
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
 
                 <span className='hidden busuanzi_container_site_pv'>
